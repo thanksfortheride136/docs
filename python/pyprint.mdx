@@ -1,0 +1,39 @@
+---
+title: 'Output / Printing'
+description: 'Output in Python is executed using the `print()` function.' 
+---
+## Definition: 
+`print()` is a built-in python function for printing information to your screen via the console.
+
+## Syntax:
+```python
+print(string)
+```
+## Examples:
+<CodeGroup>
+```Python Output String.py
+print("Hello World")
+```
+```python Ouput Int.py
+print(26)
+```
+```python Output Variable.py
+name = 'Kate'
+print(name)
+```
+```python Ouput Math Problem.py
+rectangle_lenghth = 5
+rectangle_width = 10
+print(rectangle_length*rectangle_width)
+```
+```python Ouput concat.py
+name = "Juan"
+print("Hello" + name)
+
+Outputs: Hello Juan
+```
+</CodeGroup>
+
+<Tip>Don’t use a space with the print statment. It should be written as `print()` not `print ()`.</Tip>
+<Warning>You must consider the `type` when printing. `print(32 + "hello")` is a type mismatch, consider using a `str` or `int` function to convert to proper types.</Warning>
+

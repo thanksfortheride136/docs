@@ -1,15 +1,15 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "TigerBytes",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#FC6F00",
+    "light": "#FC6F00",
+    "dark": "#FC6F00",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
@@ -17,8 +17,8 @@
   },
   "topbarLinks": [
     {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "name": "Contact",
+      "url": "cooperl@tuckahoeschools.org"
     }
   ],
   "topbarCtaButton": {
@@ -27,29 +27,35 @@
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Bash",
+      "url": "bash"
     },
     {
       "name": "Python",
       "url": "python"
+    },
+    {
+      "name": "Javascript",
+      "url": "javascript"
+    },
+    {
+      "name": "HTML",
+      "url": "html"
+    },
+    {
+      "name": "CSS",
+      "url": "css"
+    },
+    {
+      "name": "C#",
+      "url": "c"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Tuckahoe Technology Website",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "https://www.tuck.technology/"
     }
   ],
   "navigation": [
@@ -59,6 +65,48 @@
         "introduction",
         "quickstart",
         "development"
+      ]
+    },
+    {
+      "group": "Python Introduction",
+      "pages": [
+        "python/py",
+        "python/installpy"
+      ]
+    },
+    {
+      "group": "Python Basics",
+      "pages": [
+        "python/pyprint",
+        "python/pyinput",
+        "python/pycomments",
+        "python/pyvariables",
+        "python/pystrings"
+    
+      ]
+    },
+    {
+      "group": "Javascript Documentation",
+      "pages": [
+        "javascript/javascript"
+      ]
+    },
+    {
+      "group": "HTML Documentation",
+      "pages": [
+        "html/html"
+      ]
+    },
+    {
+      "group": "CSS Documentation",
+      "pages": [
+        "css/css"
+      ]
+    },
+    {
+      "group": "C# Documentation",
+      "pages": [
+        "c/c"
       ]
     },
     {
@@ -73,9 +121,9 @@
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "BASH Introduction",
       "pages": [
-        "api-reference/introduction"
+        "bash/bash"
       ]
     },
     {
@@ -88,8 +136,6 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "github": "https://github.com/thanksfortheride136"
   }
 }
