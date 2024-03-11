@@ -86,6 +86,17 @@
       ]
     },
     {
+      "group": "String Methods",
+      "pages": [
+        "python/pyprint",
+        "python/pyinput",
+        "python/pycomments",
+        "python/pyvariables",
+        "python/pystrings",
+        "python/pystringmethods"
+      ]
+    },
+    {
       "group": "Javascript Documentation",
       "pages": [
         "javascript/javascript"
