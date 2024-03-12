@@ -1,0 +1,26 @@
+---
+title: 'Creating a Turtle Object'
+description: 'To draw using Turtle graphics, you need to create an instance of the Turtle class. This instance is created by calling the constructor of the Turtle class and assigning the resulting object to a variable.'
+---
+
+## Syntax:
+
+```python
+variable_name = turtle.Turtle()
+```
+Here, variable_name is a placeholder for whatever name you choose to give your turtle instance. It's through this variable that you'll access and invoke the methods of the Turtle class to control the turtle, such as moving it forward or rotating it. The name you choose for your variable is important, as you'll use it to call all the turtle methods on the instance of the class you've created.
+
+In this context, turtle.Turtle() initializes a new Turtle object—essentially bringing a new turtle to the screen that you can control. Once created, you interact with this turtle using the variable you've assigned it to, invoking various methods to create drawings.
+
+<CodeGroup>
+```Python turtle1.py
+turtle1 = turtle.Turtle()
+```
+```python Tommy Turtle.py
+tommy = turtle.Turtle()
+```
+```python t1.py
+t1 = turtle.Turtle()
+```
+</CodeGroup>
+Each turtle follows commands specifically addressed to its own name, allowing you to control it independently in your program. For instance if we have the 3 turtles above, we can give each a command by invoking its specific variable name.
