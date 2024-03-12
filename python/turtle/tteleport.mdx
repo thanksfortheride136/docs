@@ -1,0 +1,22 @@
+---
+title: 'teleport()'
+description: 'Teleport method from the turle class.'
+---
+## Definition: 
+`teleport()` This method moves the turtle to an absolute position. Unlike `goto(x, y)`, a line will not be drawn. The turtle’s orientation does not change. If currently filling, the polygon(s) teleported from will be filled after leaving, and filling will begin again after teleporting. This can be disabled with the parameter fill_gap=True.
+
+## Syntax:
+```python
+turtle_name.teleport(x_value, y_value) #optional parameter value: fill_gap=True
+```
+## Examples:
+<CodeGroup>
+```python teleport_without_fill.py
+turtleman.teleport(90, 1)
+```
+```python teleport_with_fill.py
+turtleman.teleport(10, 29, fill_gap=True) #enables your to fill polygons while teleporting
+```
+</CodeGroup>
+
+<Tip>Don’t use a spaces with the methods. They should be written as `left()` not `left ()` etc.</Tip>

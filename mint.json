@@ -49,6 +49,10 @@
     {
       "name": "C#",
       "url": "c"
+    }, 
+    {
+      "name": "Scratch",
+      "url": "scratch"
     }
   ],
   "anchors": [
@@ -97,7 +101,9 @@
         "python/turtle/tabout",
         "python/turtle/timport",
         "python/turtle/tobject",
-        "python/turtle/tforward"
+        "python/turtle/tforward",
+        "python/turtle/tleft",
+        "python/turtle/tteleport"
       ]
     },
     {
@@ -128,6 +134,12 @@
       "group": "C# Documentation",
       "pages": [
         "c/c"
+      ]
+    },
+    {
+      "group": "Scratch",
+      "pages": [
+        "scratch/sabout"
       ]
     },
     {

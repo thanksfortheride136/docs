@@ -1,26 +1,25 @@
 ---
-title: 'Forward()'
-description: '`turtle()` is a built-in Python library, meaning it can be importaed without having to install it through the terminal / Command Line Interface(CLI).'
+title: 'forward() & backward()'
+description: 'Forward and backward method from the turtle class.'
 ---
 ## Definition: 
-`move()` moves the turtle oject forward a set distance. You must use the name of your turtle object, the forward() method and then an integer as a parameter.
+`move()` moves the turtle oject forward or backward a set distance. You must use the name of your turtle object, the forward()/backward() method and then an integer as a parameter.
 
 ## Syntax:
 ```python
-turtle_name.forward(int)
+turtle_name.forward(int or float)
+```
+```python
+turtle_name.backward(int or float)
 ```
 ## Examples:
 <CodeGroup>
 ```python forward1.py
-t.forward(100)
+t.forward(89)
 ```
-```python forward2.py
-turtle1.forward(45)
-```
-```python forward3.py
-jeff.forward(1)
+```python backward1.py
+turtle1.backward(25)
 ```
 </CodeGroup>
 
-<Tip>Don’t use a space with the forward method. It should be written as `forward()` not `forward ()`.</Tip>
-<Warning>These methods take `ints` not `floats` (decimals)</Warning>
+<Tip>Don’t use a space with the forward/backward method. It should be written as `forward()` / `backward()` not `forward ()` / `backward ()`.</Tip>
