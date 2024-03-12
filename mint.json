@@ -88,12 +88,16 @@
     {
       "group": "String Methods",
       "pages": [
-        "python/pyprint",
-        "python/pyinput",
-        "python/pycomments",
-        "python/pyvariables",
-        "python/pystrings",
         "python/pystringmethods"
+      ]
+    },
+    {
+      "group": "Turtle Graphics",
+      "pages": [
+        "python/turtle/tabout",
+        "python/turtle/timport",
+        "python/turtle/tobject",
+        "python/turtle/tforward"
       ]
     },
     {
