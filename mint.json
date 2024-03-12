@@ -109,7 +109,13 @@
     {
       "group": "HTML Documentation",
       "pages": [
-        "html/html"
+        "html/html",
+        "html/phtml",
+        "html/hhtml",
+        "html/emhtml",
+        "html/bhtml",
+        "html/hrhtml",
+        "html/ahrefhtml"
       ]
     },
     {
