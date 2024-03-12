@@ -23,7 +23,7 @@
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "http://www.google.com"
   },
   "tabs": [
     {
@@ -101,6 +101,7 @@
         "python/turtle/tabout",
         "python/turtle/timport",
         "python/turtle/tobject",
+        "python/turtle/tscreencoordinates",
         "python/turtle/tforward",
         "python/turtle/tleft",
         "python/turtle/tteleport"
